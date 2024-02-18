@@ -1,1 +1,6 @@
-echo System information has been gathered.  Here’s the summary:
+echo "System information has been gathered.  Here’s the summary: "
+echo "date: " $(date +"%x %X %Z")
+echo "user:" $(whoami)
+echo "Current Working Directory: " $(pwd)
+echo "System Usage: " && 
+echo "Disk Usage: " && df 
