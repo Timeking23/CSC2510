@@ -1,0 +1,1 @@
+echo System information has been gathered.  Here’s the summary:
