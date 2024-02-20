@@ -1,5 +1,9 @@
 #!/bin/bash
+if [! -d "/home/kali/system_info" ]
+then
 mkdir system_info
+fi
+
 cd ./system_info 
 touch system_info.txt
 
