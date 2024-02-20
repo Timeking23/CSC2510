@@ -2,5 +2,5 @@ echo "System information has been gathered.  Here’s the summary: "
 echo "date: " $(date +"%x %X %Z")
 echo "user:" $(whoami)
 echo "Current Working Directory: " $(pwd)
-echo "System Usage: " && 
+echo -e "System Usage: \n" $(top -b -i -n1)
 echo "Disk Usage: " && df 
